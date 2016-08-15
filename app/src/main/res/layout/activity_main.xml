@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.cg.custompre.MainActivity"
+    android:orientation="vertical"
+    android:background="#000000">
+
+
+    <com.example.cg.custompre.custom.mPre
+        android:id="@+id/myPre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        app:TextSize="14dp"/>
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变化开始"/>
+    <Button
+        android:id="@+id/btn_add2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="其中一个值为0"/>
+</LinearLayout>
