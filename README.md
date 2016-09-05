@@ -28,8 +28,14 @@ iTextColor  : 左边百分比文字的颜色           <br />
 oTextColor  : 右边百分比文字的颜色
 
 现在提供两个外部接口：　<br />
-/**
-     * 动态设置进值
-     * @param iNum
-     */
-public void setINum(float iNum)
+/**<br />
+     * 动态设置进值<br />
+     * @param iNum<br />
+     */<br />
+public void setINum(float iNum)<br />
+
+/**<br />
+     * 动态设置出值<br />
+     * @param oNum<br />
+     */<br />
+    public void setONum(float oNum)<br />
