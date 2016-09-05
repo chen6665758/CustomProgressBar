@@ -1,7 +1,7 @@
 # CustomProgressBar
 自定义的一个进度条，两个数值，根据大小关系改变所占比，中间的分隔线是斜线
 ![image](https://github.com/chen6665758/CustomProgressBar/blob/master/pic.png)
-
+<br />
 <com.example.cg.custompre.custom.mPre
         android:id="@+id/myPre"
         android:layout_width="match_parent"
@@ -15,12 +15,12 @@
         app:Inclination = "30"
         app:iTextColor = "#ffffff"
         app:oTextColor = "#ffffff"/>
-
-TextSize  :  显示百分比文字的大小
-iNum      :  左边的数据量
-iColor    :  左边百分条的颜色
-oNum      :  右边的数据量
-oColor    :　右边百分条的颜色
-Inclination : 中间分隔线的角度
-iTextColor  : 左边百分比文字的颜色
+<br />
+TextSize  :  显示百分比文字的大小　　　　　　<br />
+iNum      :  左边的数据量　　　　　　　　　　<br />
+iColor    :  左边百分条的颜色　　　　　　　　<br />
+oNum      :  右边的数据量　　　　　　　　　　<br />
+oColor    :　右边百分条的颜色　　　　　　　　<br />
+Inclination : 中间分隔线的角度　　　　　　　 <br />
+iTextColor  : 左边百分比文字的颜色           <br />
 oTextColor  : 右边百分比文字的颜色
