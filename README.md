@@ -26,3 +26,10 @@ oColor    :　右边百分条的颜色　　　　　　　　<br />
 Inclination : 中间分隔线的角度　　　　　　　 <br />
 iTextColor  : 左边百分比文字的颜色           <br />
 oTextColor  : 右边百分比文字的颜色
+
+现在提供两个外部接口：　<br />
+/**
+     * 动态设置进值
+     * @param iNum
+     */
+public void setINum(float iNum)
